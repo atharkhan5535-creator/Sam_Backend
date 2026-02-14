@@ -1,0 +1,62 @@
+:root {
+  /* BG COLORS */
+  --primary-color: #1C1C1C;
+  --secondary-color: #E8254D;
+  --bg-light: #F9F9F9;
+  --bg-dark:#1E1E1E;
+  --wordMark: #FF4BED;
+  --danger: red;
+
+  /*TEXT COLORS*/
+  --text-dark: #1E1E1E;
+  --text-light: #676565;
+  --color-white: #ffff;
+  --highLight: #acaaaa;
+
+  /*BG RADIAL*/
+  --bg-radial: radial-gradient(circle,rgba(243, 80, 114, 1) 0%, rgba(192, 29, 63, 1) 100%, rgba(225, 62, 96, 1) 100%);
+
+  /*FONT FAMILY*/
+  --primary-font: "Plus Jakarta Sans", sans-serif;
+  --secondary-font: "Poetsen One", sans-serif;
+  --Italiana-font: "Italiana", sans-serif;
+
+  /* FONT SIZE */
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+
+  /* BORDER RADIUS */
+  --border-radius-sm: 0.2rem;
+  --border-radius-md: 0.25rem;
+  --border-radius-lg: 0.3rem;
+  --border-radius-xl: 0.4rem;
+  --border-radius-2xl: 0.5rem;
+  --border-radius-3xl: 1rem;
+  --border-rounded: 40px;
+  
+  /* PADDING */
+  --padding-sm: 0.5rem;
+  --padding-md: 1rem;
+  --padding-lg: 1.5rem;
+  --padding-xl: 2rem;
+  --padding-2xl: 3rem;
+
+  /* MARGIN */
+  --margin-sm: 0.5rem;
+  --margin-md: 1rem;
+  --margin-lg: 1.5rem;
+  --margin-xl: 2rem;
+  --margin-2xl: 3rem;
+
+  /* GUTTER  */
+  --gutter-sm: 0.5rem;
+  --gutter-md: 1rem;
+  --gutter-lg: 1.5rem;
+  --gutter-xl: 2rem;
+  --gutter-2xl: 3rem;
+
+  
+}

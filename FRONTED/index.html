@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poetsen+One&display=swap" rel="stylesheet">
+
+  <title>Apex salons</title>
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="./CSS/Base/main.css"/>
+</head>
+<body>
+
+  <!-- Temporary Landing -->
+  <main class="center">
+    <h1>Welcome to SAM</h1>
+    <p>Customer Appointment System</p>
+    <a href="./html/signup.html" class="btn-primary" target="_self">signup</a>
+    <button>hello</button>
+  </main>
+
+  <!-- Global JS -->
+  <script src="./Js/index.js"></script>
+  <script>fetch("http://localhost/Sam-Backend/BACKEND/public/index.php/api/customers/register", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    name: "Browser Test",
+    phone: "9999999999",
+    email: "browser@test.com",
+    password: "123456",
+    salon_id: 1
+  })
+})
+.then(res => res.text())
+.then(console.log)
+.catch(console.error);
+</script>
+</body>
+</html>
